@@ -2,14 +2,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title><%= "some title" %></title>
+    <jsp:include page="WEB-INF/partials/head.jsp"/>
+
+    <%--<link rel="stylesheet" href="css/main.css">--%>
 </head>
 <body>
-    <c:if test="true">
-        <h1>Variable names should be very descriptive</h1>
-    </c:if>
-    <c:if test="false">
-        <h1>single letter variable names are good</h1>
-    </c:if>
+<jsp:include page="WEB-INF/partials/navbar.jsp"/>
+<div class="container">
+    <h1 id="welcome">Welcome to Ad-Lister!</h1>
+</div>
 </body>
 </html>
