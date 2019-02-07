@@ -12,7 +12,6 @@ public class AdServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        // get all the quotes
         List<Ad> ads = DaoFactory.getAdsDao().all();
 
         // bind the quotes to the request object
