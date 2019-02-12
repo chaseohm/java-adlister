@@ -7,14 +7,17 @@ public class Config {
     private String password = "19Grant94";
 
     public String getUrl() {
+
         return url;
     }
 
     public String getUsername() {
+
         return username;
     }
 
     public String getPassword() {
+
         return password;
     }
 }
